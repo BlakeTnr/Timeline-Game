@@ -10,6 +10,8 @@ public class OnStart : MonoBehaviour
     void Start()
     {
         Slide.slidePrefab = slidePrefab;
+        Slide slide = new Slide(2);
+        slide.display();
     }
 
     // Update is called once per frame
