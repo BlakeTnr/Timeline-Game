@@ -37,8 +37,8 @@ public class CarController : MonoBehaviour
 
     private void handleAccelerating()
     {
-        Vector3 worldFromLocalAcceeleration = transform.TransformVector(new Vector3(0, 0, verticalInput * maxAcceleration));
-        rigidbody.AddForce(worldFromLocalAcceeleration);
+        Vector3 worldFromLocalAcceleration = transform.TransformVector(new Vector3(0, 0, verticalInput * maxAcceleration));
+        rigidbody.AddForce(worldFromLocalAcceleration);
         capSpeed();
     }
 
