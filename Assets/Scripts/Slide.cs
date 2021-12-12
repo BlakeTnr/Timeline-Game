@@ -16,7 +16,6 @@ public class Slide
 
     public void display()
     {
-        Debug.Log(slidePrefab);
         this.slide = GameObject.Instantiate(slidePrefab, new Vector3(0, 0, 0), Quaternion.Euler(0, 0, 0));
         setAllData();
     }
